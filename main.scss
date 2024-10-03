@@ -1,5 +1,5 @@
 /* Color Theme Swatches in Hex */
-$lavender-1: #3f2645;
+$lavender-1: #392a3b;
 $lavender-2: #b57edc;
 $lavender-3: #ca9ce1;
 $lavender-4: #f2befc;
@@ -32,7 +32,7 @@ $headings-font-family: 'Georgia', serif;
     background-position: center center;
 
     .mask {
-        height: 50rem;
+        height: 40rem;
     }
 
     h1 {
@@ -50,7 +50,7 @@ footer {
     .card {
         width: 300px;
         background-color: $light-bg-subtle;
-        
+
         img {
             height: 170px;
             object-fit: cover;
@@ -60,4 +60,19 @@ footer {
 
 .title-dark {
     color: $lavender-dark;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
 }

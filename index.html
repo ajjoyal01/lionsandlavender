@@ -14,24 +14,24 @@
 
 <body>
     <!-- Header -->
-    <header class="p-3 bg-secondary">
+    <header class="p-3 bg-primary">
         <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg>
-                </a>
+            <div class="row d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+
+                <ul class="nav col">
                     <li><a href="#shows" class="nav-link px-2 text-white">Shows</a></li>
                     <li><a href="#music" class="nav-link px-2 text-white">Music</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">Merch</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">About</a></li>
                 </ul>
 
-                <div class="text-end">
-                    <a class="btn btn-light btn-lg" href="#contact">Contact Us</a>
+                <div class="col text-center">
+                    <p class="text-white m-0 lead">LIONS AND LAVENDER</p>
+                </div>
+
+                <div class="col text-end">
+                    <a class="btn btn-light" href="#contact">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -40,14 +40,14 @@
 
     <!-- Hero -->
     <div class="text-center bg-image hero-image" style="background-image: url('./assets/img/Band.png');">
-        <div class="mask" style="background-color: rgba(39, 16, 54, 0.632);">
-            <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="mask" style="background-color: rgba(39, 16, 54, 0);">
+            <!-- <div class="d-flex justify-content-center align-items-center h-100">
                 <div class="text-white">
                     <h1 class="display-1 fw-bold">Lions and Lavender</h1>
-                    <!-- <p class="lead">New music video "wya?" out now</p> -->
+                    <p class="lead">New music video "wya?" out now</p>
                     <a class="btn btn-light my-4 btn-lg" href="#video">New Music Video Out Now</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- Hero -->
@@ -55,7 +55,7 @@
     <!-- Shows -->
     <div class="bg-primary" id="shows">
         <div class="container px-4 py-5" id="featured-3">
-            <h1 class="display-5 fw-bold text-light">Shows</h1>
+            <h1 class="display-5 fw-bold text-light text-center">Shows</h1>
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 justify-content-between">
                 <div class="card col m-0 p-0">
                     <img src="./assets/img/cavern.jpg" class="card-img-top" alt="...">
@@ -104,8 +104,9 @@
                     <h1 class="display-5 fw-bold title-dark lh-1 mb-3">Music</h1>
                     <p class="lead">Check out our music on Spotify</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a class="btn btn-primary btn-lg px-4 me-md-2" href="https://open.spotify.com/artist/2CL70WFSBunS6k289Cfh6r"
-                        target="_blank">Open Spotify</a>
+                        <a class="btn btn-primary btn-lg px-4 me-md-2"
+                            href="https://open.spotify.com/artist/2CL70WFSBunS6k289Cfh6r" target="_blank">Open
+                            Spotify</a>
                     </div>
                 </div>
             </div>
@@ -114,22 +115,25 @@
     <!-- Music -->
 
     <!-- Video -->
-    <div class="bg-secondary" id="video">
+    <div class="bg-primary" id="video">
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold title-dark lh-1 mb-3">wya?</h1>
-                    <p class="lead">New music video out now!</p>
+                    <h1 class="display-5 fw-bold text-light lh-1 mb-3">wya?</h1>
+                    <p class="lead text-light">New music video out now!</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a type="button" class="btn btn-primary btn-lg px-4 me-md-2" href="https://www.youtube.com/watch?v=zQQEDnljOzc" target="_blank">Open YouTube</a>
+                        <a type="button" class="btn btn-light btn-lg px-4 me-md-2"
+                            href="https://www.youtube.com/watch?v=zQQEDnljOzc" target="_blank">Open YouTube</a>
                     </div>
                 </div>
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <iframe width="100%" height="315"
-                        src="https://www.youtube.com/embed/zQQEDnljOzc?si=9zIKXKvy1iw4xlEl" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="video-container">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/zQQEDnljOzc?si=9zIKXKvy1iw4xlEl"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,21 +172,22 @@
     <!-- Contact -->
 
     <!-- Footer -->
-    <div class="bg-secondary">
+    <div class="bg-primary">
         <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <span class="mb-3 mb-md-0">© 2024 Lions and Lavender</span>
+                <span class="mb-3 mb-md-0 text-light">© 2024 Lions and Lavender</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="" href="https://www.instagram.com/lions_and_lavender" target="_blank"><i
-                            class="bi-instagram"></i></a></li>
-                <li class="ms-3"><a class="" href="https://www.youtube.com/@LionsandLavender" target="_blank"><i
-                            class="bi-youtube"></i></a></li>
-                <li class="ms-3"><a class="" href="https://www.facebook.com/profile.php?id=100085337927636" target="
+                <li class="ms-3"><a class="text-light" href="https://www.instagram.com/lions_and_lavender"
+                        target="_blank"><i class="bi-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://www.youtube.com/@LionsandLavender"
+                        target="_blank"><i class="bi-youtube"></i></a></li>
+                <li class="ms-3"><a class="text-light" href="https://www.facebook.com/profile.php?id=100085337927636"
+                        target="
                         _blank"><i class="bi-facebook"></i></a>
                 </li>
-                <li class="ms-3"><a class="" href="https://open.spotify.com/artist/2CL70WFSBunS6k289Cfh6r"
+                <li class="ms-3"><a class="text-light" href="https://open.spotify.com/artist/2CL70WFSBunS6k289Cfh6r"
                         target="_blank"><i class="bi-spotify"></i></a>
                 </li>
             </ul>
