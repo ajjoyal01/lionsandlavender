@@ -1,0 +1,63 @@
+/* Color Theme Swatches in Hex */
+$lavender-1: #3f2645;
+$lavender-2: #b57edc;
+$lavender-3: #ca9ce1;
+$lavender-4: #f2befc;
+$lavender-5: #f8f1f7;
+//$lavender-5: #fbf0ff;
+
+$lavender-dark: #1e1c27;
+$lavender-dark: $lavender-1;
+
+
+// colors
+$primary: $lavender-1;
+$secondary: $lavender-2;
+$light: $lavender-5;
+
+$light-bg-subtle: $lavender-5;
+
+$headings-font-family: 'Georgia', serif;
+
+
+@import './bootstrap/scss/bootstrap.scss';
+
+.text-dark {
+    color: $lavender-dark
+}
+
+.hero-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .mask {
+        height: 50rem;
+    }
+
+    h1 {
+        color: $lavender-5;
+    }
+}
+
+footer {
+    i {
+        font-size: large;
+    }
+}
+
+#shows {
+    .card {
+        width: 300px;
+        background-color: $light-bg-subtle;
+        
+        img {
+            height: 170px;
+            object-fit: cover;
+        }
+    }
+}
+
+.title-dark {
+    color: $lavender-dark;
+}
