@@ -17,13 +17,13 @@ $light: $lavender-5;
 
 $light-bg-subtle: $lavender-5;
 
-$headings-font-family: 'Georgia', serif;
+//$headings-font-family: sans-serif;
 
 
 @import './bootstrap/scss/bootstrap.scss';
 
 .text-dark {
-    color: $lavender-dark
+    color: $lavender-dark;
 }
 
 .hero-image {
@@ -35,9 +35,7 @@ $headings-font-family: 'Georgia', serif;
         height: 40rem;
     }
 
-    h1 {
-        color: $lavender-5;
-    }
+    
 }
 
 footer {
