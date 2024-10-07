@@ -17,25 +17,64 @@ $light: $lavender-5;
 
 $light-bg-subtle: $lavender-5;
 
-$headings-font-family: sans-serif;
-
+$headings-font-family: "Lato", sans-serif;
+$font-family-sans-serif: "Lato", sans-serif;
 
 @import './bootstrap/scss/bootstrap.scss';
+
+
+
+.navbar-custom {
+    background-color: rgba(94, 45, 117, 1);
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        background-color: rgba(94, 45, 117, 0.833);
+    }
+
+    .navbar-brand {
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-size: .8rem;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
 
 .text-dark {
     color: $lavender-dark;
 }
 
 .hero-image {
-    background-size: cover;
+    padding-top: 40%;
+    margin-top: 56px;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     background-position: center center;
+    background-size: cover;
 
-    .mask {
-        height: 40rem;
+    // @media (min-width: map-get($grid-breakpoints, "sm")) {
+    //     padding-top: 25rem;
+    // }
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        padding-top: 50%;
+        margin-top: 0;
     }
 
-    
+    // @media (min-width: map-get($grid-breakpoints, "lg")) {
+    //     padding-top: 35rem;
+    // }
+
+    // @media (min-width: map-get($grid-breakpoints, "xl")) {
+    //     padding-top: 40rem;
+    // }
 }
 
 footer {
