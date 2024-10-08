@@ -11994,7 +11994,7 @@ textarea.form-control-lg {
 }
 
 .hero-image {
-  padding-top: 40%;
+  padding-top: 50%;
   margin-top: 56px;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12003,7 +12003,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .hero-image {
-    padding-top: 50%;
     margin-top: 0;
   }
 }
