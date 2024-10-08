@@ -8,10 +8,11 @@ $lavender-5: #f8f1f7;
 
 $lavender-dark: #1e1c27;
 $lavender-dark: $lavender-1;
+$lavender-dark: #5e2d75;
 
 
 // colors
-$primary: $lavender-1;
+$primary: rgba(94, 45, 117, 1);
 $secondary: $lavender-2;
 $light: $lavender-5;
 
@@ -98,6 +99,7 @@ footer {
 .title-dark {
     color: $lavender-dark;
 }
+
 
 .video-container {
     position: relative;

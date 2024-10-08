@@ -75,23 +75,24 @@
 
     <!-- Music -->
     <div class="bg-light" id="music">
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <iframe style="border-radius:12px"
-                        src="https://open.spotify.com/embed/artist/2CL70WFSBunS6k289Cfh6r?utm_source=generator&theme=0"
-                        width="100%" height="352" frameBorder="0" allowfullscreen=""
-                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                        loading="lazy"></iframe>
-                </div>
-                <div class="col-lg-6">
+        <div class="container d-flex justify-content-center px-4 py-4">
+            <div class="row col align-items-center col-xl-10 g-5 py-5">
+                
+                <div class="col-lg-4">
                     <h1 class="display-5 fw-bold title-dark lh-1 mb-3">Music</h1>
-                    <p class="lead">Check out our music on Spotify</p>
+                    <p class="lead">Check out our music on Spotify!</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <a class="btn btn-primary btn-lg px-4 me-md-2"
                             href="https://open.spotify.com/artist/2CL70WFSBunS6k289Cfh6r" target="_blank">Open
                             Spotify</a>
                     </div>
+                </div>
+                <div class="col">
+                    <iframe src="https://open.spotify.com/embed/artist/2CL70WFSBunS6k289Cfh6r?utm_source=generator&theme=0"
+                        width="100%" height="370"
+                        style="border-radius:0px"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </div>
             </div>
         </div>
@@ -100,9 +101,9 @@
 
     <!-- Video -->
     <div class="bg-primary" id="video">
-        <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-lg-6">
+        <div class="container d-flex justify-content-center py-4">
+            <div class="row col col-xl-10 flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-12 col-lg-4">
                     <h1 class="display-5 fw-bold text-light lh-1 mb-3">wya?</h1>
                     <p class="lead text-light">New music video out now!</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -110,13 +111,18 @@
                             href="https://www.youtube.com/watch?v=zQQEDnljOzc" target="_blank">Open YouTube</a>
                     </div>
                 </div>
-                <div class="col-10 col-sm-8 col-lg-6">
+                <div class="col-12 col-lg">
                     <div class="video-container">
-                        <iframe width="100%" height="315"
+                        <iframe 
+                            width="100%" height="315"
                             src="https://www.youtube.com/embed/zQQEDnljOzc?si=9zIKXKvy1iw4xlEl"
-                            title="YouTube video player" frameborder="0"
+                            title="YouTube video player" 
+                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen
+                            rel=0>
+                        </iframe>
                     </div>
                 </div>
             </div>
@@ -141,6 +147,11 @@
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Message Subject"
                             required>
                     </div>
                     <div class="mb-3">
