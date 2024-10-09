@@ -1,0 +1,47 @@
+.navbar-custom {
+    background-color: rgba(94, 45, 117, 1);
+
+    @media (min-width: map-get($grid-breakpoints, "md")) {
+        //background-color: rgba(94, 45, 117, 0.833);
+        //background: none;
+    }
+
+    &.navbar-opaque {
+        @media (min-width: map-get($grid-breakpoints, "md")) {
+            background-color: rgba(94, 45, 117, 0.833);
+        }
+    }
+
+    .navbar-brand {
+        font-family: "Afacad Flux", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+
+        @media (min-width: map-get($grid-breakpoints, "lg")) {
+            display: none;
+        }
+    }
+
+    .navbar-collapse {
+        @media (min-width: map-get($grid-breakpoints, "md")) {
+            justify-content: center;
+        }
+    }
+
+    .nav-link {
+        font-family: "Afacad Flux", sans-serif;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.15rem;
+        font-weight: 500;
+        color: white;
+    }
+
+    .nav-socials {
+        @media (min-width: map-get($grid-breakpoints, "lg")) {
+            display: none;
+        }
+    }
+}
