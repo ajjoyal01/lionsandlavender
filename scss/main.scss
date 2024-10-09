@@ -23,6 +23,15 @@ $font-family-sans-serif: "Raleway", sans-serif;
 @import '../bootstrap/scss/bootstrap.scss';
 @import './nav.scss';
 @import './header.scss';
+@import './cards.scss';
+
+.btn {
+    border-radius: 0px;
+}
+
+img.full-image {
+    width: 100%;
+}
 
 .text-dark {
     color: $lavender-dark;

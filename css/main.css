@@ -12044,6 +12044,47 @@ header h1 span, header .h1 span {
   }
 }
 
+.show-card .show-date {
+  background-color: rgb(94, 45, 117);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  border: 2px solid;
+  border-color: white;
+}
+.show-card .show-date h4, .show-card .show-date .h4 {
+  font-size: 3rem;
+  margin: 0;
+}
+.show-card .show-date span {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+.show-card .show-location {
+  background-color: white;
+  padding: 1rem;
+}
+.show-card .show-location h5, .show-card .show-location .h5 {
+  font-size: 1.7rem;
+  margin: 0;
+}
+.show-card .show-location h6, .show-card .show-location .h6 {
+  font-size: 1.2rem;
+}
+.show-card .show-location p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+img.full-image {
+  width: 100%;
+}
+
 .text-dark {
   color: #5e2d75;
 }
