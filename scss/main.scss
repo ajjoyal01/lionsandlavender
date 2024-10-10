@@ -18,22 +18,24 @@ $light: $lavender-5;
 $light-bg-subtle: $lavender-5;
 
 $headings-font-family: "Afacad Flux", sans-serif;
-$font-family-sans-serif: "Raleway", sans-serif;
+$font-family-sans-serif: "Lato", sans-serif;
 
 @import '../bootstrap/scss/bootstrap.scss';
 @import './nav.scss';
 @import './header.scss';
 @import './cards.scss';
+@import './buttons.scss';
 
-.btn {
-    border-radius: 0px;
-}
 
 img.full-image {
     width: 100%;
 }
 
 .text-dark {
+    color: $lavender-dark;
+}
+
+.title-dark {
     color: $lavender-dark;
 }
 
@@ -54,11 +56,6 @@ footer {
         }
     }
 }
-
-.title-dark {
-    color: $lavender-dark;
-}
-
 
 .video-container {
     position: relative;
