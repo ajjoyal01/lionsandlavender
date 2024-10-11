@@ -18,7 +18,8 @@
 
 //$light-bg-subtle: $lavender-5;
 
-$headings-font-family: "Afacad Flux", sans-serif;
+//$headings-font-family: "Afacad Flux", sans-serif;
+$headings-font-family: "Protest Strike", sans-serif;
 $font-family-sans-serif: "Lato", sans-serif;
 
 @import './colors.scss';
@@ -28,6 +29,9 @@ $font-family-sans-serif: "Lato", sans-serif;
 @import './cards.scss';
 @import './buttons.scss';
 
+h1 {
+    letter-spacing: 0.3rem;
+}
 
 .bg-accent {
     background-color: $accent;
