@@ -1,16 +1,6 @@
 .navbar-custom {
-    background-color: rgba(94, 45, 117, 1);
-
-    @media (min-width: map-get($grid-breakpoints, "md")) {
-        //background-color: rgba(94, 45, 117, 0.833);
-        //background: none;
-    }
-
-    &.navbar-opaque {
-        @media (min-width: map-get($grid-breakpoints, "md")) {
-            background-color: rgba(94, 45, 117, 0.833);
-        }
-    }
+    //background-color: rgba(94, 45, 117, 1);
+        background-color: $primary;
 
     .navbar-brand {
         font-family: "Afacad Flux", sans-serif;

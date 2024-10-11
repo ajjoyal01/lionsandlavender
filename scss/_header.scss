@@ -7,18 +7,19 @@ header {
     background-size: cover;
 
     .mask {
-        background-color: rgba(98, 0, 143, 0.4);
+        background-color: rgba(79, 38, 84, .5);
         padding-bottom: 17%;
     }
 
     .header-socials {
         font-size: 2rem;
+        color: $light;
     }
 
     h1 {
         font-size: 4rem;
         padding-top: 17%;
-        color: white;
+        color: $light;
        
         @media (min-width: map-get($grid-breakpoints, "md")) {
             font-size: 8rem;
