@@ -12088,6 +12088,12 @@ header h1 span, header .h1 span {
   color: #7fae6f;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 h1, .h1 {
   letter-spacing: 0.3rem;
 }
