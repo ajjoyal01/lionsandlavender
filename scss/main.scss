@@ -29,6 +29,11 @@ $font-family-sans-serif: "Lato", sans-serif;
 @import './cards.scss';
 @import './buttons.scss';
 
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
 h1 {
     letter-spacing: 0.3rem;
 }
