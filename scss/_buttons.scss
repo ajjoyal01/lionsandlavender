@@ -1,3 +1,14 @@
 .btn {
     border-radius: 0px;
 }
+.btn-accent {
+    background-color: $accent;
+    color: $light;
+    border: 2px solid;
+    
+        &:hover {
+            background-color: white;
+            border-color: $accent;
+            color: $accent;
+        }
+}

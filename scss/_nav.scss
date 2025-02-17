@@ -1,16 +1,6 @@
 .navbar-custom {
-    background-color: rgba(94, 45, 117, 1);
-
-    @media (min-width: map-get($grid-breakpoints, "md")) {
-        //background-color: rgba(94, 45, 117, 0.833);
-        //background: none;
-    }
-
-    &.navbar-opaque {
-        @media (min-width: map-get($grid-breakpoints, "md")) {
-            background-color: rgba(94, 45, 117, 0.833);
-        }
-    }
+    //background-color: rgba(94, 45, 117, 1);
+        background-color: $primary;
 
     .navbar-brand {
         font-family: "Afacad Flux", sans-serif;
@@ -31,11 +21,11 @@
     }
 
     .nav-link {
-        font-family: "Afacad Flux", sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-transform: uppercase;
         font-size: 1rem;
-        letter-spacing: 0.15rem;
-        font-weight: 500;
+        letter-spacing: 0.2rem;
+            font-weight: 300;
         color: white;
     }
 

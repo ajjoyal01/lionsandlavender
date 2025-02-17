@@ -2,9 +2,9 @@
 
 
     .show-date {
-        background-color: $primary;
+        background-color: $accent;
         text-align: center;
-        color: white;
+        color: $light;
         padding: 1rem;
         border: 2px solid;
         border-color: white;
@@ -22,7 +22,7 @@
     }
 
     .show-location {
-        background-color: white;
+        background-color: $light;
         padding: 1rem;
 
         h5 {
